@@ -1,0 +1,182 @@
+[
+  {
+    "id": "G1030",
+    "name": "Agrius",
+    "group_url": "https://attack.mitre.org/groups/G1030",
+    "generated_layer_path": "data/generated_layers/G1030-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G1030/G1030-enterprise-layer.json",
+    "technique_count": 22,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G0130",
+    "name": "Ajax Security Team",
+    "group_url": "https://attack.mitre.org/groups/G0130",
+    "generated_layer_path": "data/generated_layers/G0130-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G0130/G0130-enterprise-layer.json",
+    "technique_count": 6,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G0064",
+    "name": "APT33",
+    "group_url": "https://attack.mitre.org/groups/G0064",
+    "generated_layer_path": "data/generated_layers/G0064-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G0064/G0064-enterprise-layer.json",
+    "technique_count": 31,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G0087",
+    "name": "APT39",
+    "group_url": "https://attack.mitre.org/groups/G0087",
+    "generated_layer_path": "data/generated_layers/G0087-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G0087/G0087-enterprise-layer.json",
+    "technique_count": 53,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G1044",
+    "name": "APT42",
+    "group_url": "https://attack.mitre.org/groups/G1044",
+    "generated_layer_path": "data/generated_layers/G1044-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G1044/G1044-enterprise-layer.json",
+    "technique_count": 31,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G0003",
+    "name": "Cleaver",
+    "group_url": "https://attack.mitre.org/groups/G0003",
+    "generated_layer_path": "data/generated_layers/G0003-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G0003/G0003-enterprise-layer.json",
+    "technique_count": 5,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G0052",
+    "name": "CopyKittens",
+    "group_url": "https://attack.mitre.org/groups/G0052",
+    "generated_layer_path": "data/generated_layers/G0052-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G0052/G0052-enterprise-layer.json",
+    "technique_count": 8,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G1012",
+    "name": "CURIUM",
+    "group_url": "https://attack.mitre.org/groups/G1012",
+    "generated_layer_path": "data/generated_layers/G1012-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G1012/G1012-enterprise-layer.json",
+    "technique_count": 19,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G1027",
+    "name": "CyberAv3ngers",
+    "group_url": "https://attack.mitre.org/groups/G1027/",
+    "generated_layer_path": "data/generated_layers/G1027-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G1027/G1027-enterprise-layer.json",
+    "technique_count": 0,
+    "validated": false,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G0137",
+    "name": "Ferocious Kitten",
+    "group_url": "https://attack.mitre.org/groups/G0137",
+    "generated_layer_path": "data/generated_layers/G0137-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G0137/G0137-enterprise-layer.json",
+    "technique_count": 6,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G0117",
+    "name": "Fox Kitten",
+    "group_url": "https://attack.mitre.org/groups/G0117",
+    "generated_layer_path": "data/generated_layers/G0117-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G0117/G0117-enterprise-layer.json",
+    "technique_count": 41,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G0043",
+    "name": "Group5",
+    "group_url": "https://attack.mitre.org/groups/G0043",
+    "generated_layer_path": "data/generated_layers/G0043-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G0043/G0043-enterprise-layer.json",
+    "technique_count": 4,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G0077",
+    "name": "Leafminer",
+    "group_url": "https://attack.mitre.org/groups/G0077",
+    "generated_layer_path": "data/generated_layers/G0077-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G0077/G0077-enterprise-layer.json",
+    "technique_count": 17,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G0059",
+    "name": "Magic Hound",
+    "group_url": "https://attack.mitre.org/groups/G0059",
+    "generated_layer_path": "data/generated_layers/G0059-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G0059/G0059-enterprise-layer.json",
+    "technique_count": 79,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G1009",
+    "name": "Moses Staff",
+    "group_url": "https://attack.mitre.org/groups/G1009",
+    "generated_layer_path": "data/generated_layers/G1009-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G1009/G1009-enterprise-layer.json",
+    "technique_count": 12,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G0069",
+    "name": "MuddyWater",
+    "group_url": "https://attack.mitre.org/groups/G0069",
+    "generated_layer_path": "data/generated_layers/G0069-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G0069/G0069-enterprise-layer.json",
+    "technique_count": 58,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G0049",
+    "name": "OilRig",
+    "group_url": "https://attack.mitre.org/groups/G0049",
+    "generated_layer_path": "data/generated_layers/G0049-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G0049/G0049-enterprise-layer.json",
+    "technique_count": 76,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  },
+  {
+    "id": "G0122",
+    "name": "Silent Librarian",
+    "group_url": "https://attack.mitre.org/groups/G0122",
+    "generated_layer_path": "data/generated_layers/G0122-enterprise-layer.json",
+    "official_layer_url": "https://attack.mitre.org/groups/G0122/G0122-enterprise-layer.json",
+    "technique_count": 13,
+    "validated": true,
+    "source": "MITRE ATT&CK Excel v18.1 / techniques used sheet"
+  }
+]

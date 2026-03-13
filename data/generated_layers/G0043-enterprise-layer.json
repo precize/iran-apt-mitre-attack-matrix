@@ -1,0 +1,56 @@
+{
+  "name": "Group5 (G0043)",
+  "description": "Enterprise techniques used by Group5 derived from MITRE ATT&CK Excel v18.1 'techniques used' mappings.",
+  "domain": "enterprise-attack",
+  "versions": {
+    "layer": "4.5",
+    "attack": "18.1",
+    "navigator": "5.2.0"
+  },
+  "techniques": [
+    {
+      "techniqueID": "T1027.013",
+      "comment": "[Group5](https://attack.mitre.org/groups/G0043) disguised its malicious binaries with several layers of obfuscation, including encrypting the files.(Citation: Citizen Lab Group5)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1056.001",
+      "comment": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of capturing keystrokes.(Citation: Citizen Lab Group5)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1070.004",
+      "comment": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of remotely deleting files from victims.(Citation: Citizen Lab Group5)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1113",
+      "comment": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of watching the victim's screen.(Citation: Citizen Lab Group5)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    }
+  ],
+  "legendItems": [
+    {
+      "label": "used by Group5",
+      "color": "#66b1ff"
+    }
+  ],
+  "metadata": [
+    {
+      "name": "source",
+      "value": "MITRE ATT&CK Excel v18.1 groups.xlsx / techniques used"
+    },
+    {
+      "name": "groupPage",
+      "value": "https://attack.mitre.org/groups/G0043"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Ajax Security Team (G0130)",
+  "description": "Enterprise techniques used by Ajax Security Team derived from MITRE ATT&CK Excel v18.1 'techniques used' mappings.",
+  "domain": "enterprise-attack",
+  "versions": {
+    "layer": "4.5",
+    "attack": "18.1",
+    "navigator": "5.2.0"
+  },
+  "techniques": [
+    {
+      "techniqueID": "T1056.001",
+      "comment": "[Ajax Security Team](https://attack.mitre.org/groups/G0130) has used CWoolger and MPK, custom-developed malware, which recorded all keystrokes on an infected system.(Citation: Check Point Rocket Kitten)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1105",
+      "comment": "[Ajax Security Team](https://attack.mitre.org/groups/G0130) has used Wrapper/Gholee, custom-developed malware, which downloaded additional malware to the infected system.(Citation: Check Point Rocket Kitten)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1204.002",
+      "comment": "[Ajax Security Team](https://attack.mitre.org/groups/G0130) has lured victims into executing malicious files.(Citation: FireEye Operation Saffron Rose 2013)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1555.003",
+      "comment": "[Ajax Security Team](https://attack.mitre.org/groups/G0130) has used FireMalv custom-developed malware, which collected passwords from the Firefox browser storage.(Citation: Check Point Rocket Kitten)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1566.001",
+      "comment": "[Ajax Security Team](https://attack.mitre.org/groups/G0130) has used personalized spearphishing attachments.(Citation: Check Point Rocket Kitten)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1566.003",
+      "comment": "[Ajax Security Team](https://attack.mitre.org/groups/G0130) has used various social media channels to spearphish victims.(Citation: FireEye Operation Saffron Rose 2013)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    }
+  ],
+  "legendItems": [
+    {
+      "label": "used by Ajax Security Team",
+      "color": "#66b1ff"
+    }
+  ],
+  "metadata": [
+    {
+      "name": "source",
+      "value": "MITRE ATT&CK Excel v18.1 groups.xlsx / techniques used"
+    },
+    {
+      "name": "groupPage",
+      "value": "https://attack.mitre.org/groups/G0130"
+    }
+  ]
+}

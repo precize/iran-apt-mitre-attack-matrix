@@ -1,0 +1,560 @@
+{
+  "name": "OilRig (G0049)",
+  "description": "Enterprise techniques used by OilRig derived from MITRE ATT&CK Excel v18.1 'techniques used' mappings.",
+  "domain": "enterprise-attack",
+  "versions": {
+    "layer": "4.5",
+    "attack": "18.1",
+    "navigator": "5.2.0"
+  },
+  "techniques": [
+    {
+      "techniqueID": "T1003.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used credential dumping tools such as [Mimikatz](https://attack.mitre.org/software/S0002) to steal credentials to accounts logged into the compromised system and to Outlook Web Access.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT35 2018)(Citation: FireEye APT34 July 2019)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1003.004",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used credential dumping tools such as [LaZagne](https://attack.mitre.org/software/S0349) to steal credentials to accounts logged into the compromised system and to Outlook Web Access.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT35 2018)(Citation: FireEye APT34 July 2019)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1003.005",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used credential dumping tools such as [LaZagne](https://attack.mitre.org/software/S0349) to steal credentials to accounts logged into the compromised system and to Outlook Web Access.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT35 2018)(Citation: FireEye APT34 July 2019)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1005",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used PowerShell to upload files from compromised systems.(Citation: Trend Micro Earth Simnavaz October 2024)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1007",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used <code>sc query</code> on a victim to gather information about services.(Citation: Palo Alto OilRig May 2016)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1008",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) malware ISMAgent falls back to its DNS tunneling mechanism if it is unable to reach the C2 server over HTTP.(Citation: OilRig ISMAgent July 2017)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1012",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used <code>reg query \u201cHKEY_CURRENT_USER\\Software\\Microsoft\\Terminal Server Client\\Default\u201d</code> on a victim to query the Registry.(Citation: Palo Alto OilRig May 2016)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1016",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has run <code>ipconfig /all</code> on a victim.(Citation: Palo Alto OilRig May 2016)(Citation: Palo Alto OilRig Oct 2016)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1021.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used Remote Desktop Protocol for lateral movement. The group has also used tunneling tools to tunnel RDP into the environment.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: Crowdstrike GTR2020 Mar 2020)(Citation: Symantec Crambus OCT 2023)(Citation: Symantec Crambus OCT 2023)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1021.004",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used Putty to access compromised systems.(Citation: Unit42 OilRig Playbook 2023)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1025",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used Wireshark\u2019s usbcapcmd utility to capture USB traffic.(Citation: Symantec Crambus OCT 2023)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1027.005",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has tested malware samples to determine AV detection and subsequently modified the samples to ensure AV evasion.(Citation: Palo Alto OilRig April 2017)(Citation: Unit42 OilRig Nov 2018)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1027.013",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has encrypted and encoded data in its malware, including by using base64.(Citation: FireEye APT34 Dec 2017)(Citation: Unit 42 QUADAGENT July 2018)(Citation: Unit42 OilRig Playbook 2023)(Citation: Crowdstrike Helix Kitten Nov 2018)(Citation: Unit42 OilRig Nov 2018)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1033",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has run <code>whoami</code> on a victim.(Citation: Palo Alto OilRig May 2016)(Citation: Palo Alto OilRig Oct 2016)(Citation: Check Point APT34 April 2021)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1036",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used .doc file extensions to mask malicious executables.(Citation: Check Point APT34 April 2021)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1036.005",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has named a downloaded copy of the Plink tunneling utility as \\ProgramData\\Adobe.exe.(Citation: Symantec Crambus OCT 2023)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1046",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used the publicly available tool SoftPerfect Network Scanner as well as a custom tool called GOLDIRONY to conduct network scanning.(Citation: FireEye APT34 Webinar Dec 2017)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1047",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used WMI for execution.(Citation: FireEye APT34 Webinar Dec 2017)(Citation: Symantec Crambus OCT 2023)\n",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1048.003",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has exfiltrated data via Microsoft Exchange and over FTP separately from its primary C2 channel over DNS.(Citation: Palo Alto OilRig Oct 2016)(Citation: Trend Micro Earth Simnavaz October 2024)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1049",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used <code>netstat -an</code> on a victim to get a listing of network connections.(Citation: Palo Alto OilRig May 2016)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1053.005",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has created scheduled tasks that run a VBScript to execute a payload on victim machines.(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 QUADAGENT July 2018)(Citation: FireEye APT34 July 2019)(Citation: Check Point APT34 April 2021)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1056.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has employed keyloggers including KEYPUNCH and LONGWATCH.(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT34 July 2019)(Citation: Symantec Crambus OCT 2023)\t\n",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1057",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has run <code>tasklist</code> on a victim's machine and used infostealers to capture processes.(Citation: Palo Alto OilRig May 2016)(Citation: Symantec Crambus OCT 2023)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1059",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used various types of scripting for execution.(Citation: FireEye APT34 Dec 2017)(Citation: OilRig ISMAgent July 2017)(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 QUADAGENT July 2018)(Citation: Unit42 OilRig Nov 2018)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1059.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used PowerShell scripts for execution, including use of a macro to run a PowerShell command to decode file contents.(Citation: FireEye APT34 Dec 2017)(Citation: OilRig New Delivery Oct 2017)(Citation: Crowdstrike Helix Kitten Nov 2018)(Citation: Trend Micro Earth Simnavaz October 2024)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1059.003",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used macros to deliver malware such as [QUADAGENT](https://attack.mitre.org/software/S0269) and [OopsIE](https://attack.mitre.org/software/S0264).(Citation: FireEye APT34 Dec 2017)(Citation: OilRig ISMAgent July 2017)(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 QUADAGENT July 2018)(Citation: Unit42 OilRig Nov 2018) [OilRig](https://attack.mitre.org/groups/G0049) has used batch scripts.(Citation: FireEye APT34 Dec 2017)(Citation: OilRig ISMAgent July 2017)(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 QUADAGENT July 2018)(Citation: Unit42 OilRig Nov 2018)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1059.005",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used VBScript macros for execution on compromised hosts.(Citation: Check Point APT34 April 2021)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1068",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has exploited the Windows Kernel Elevation of Privilege vulnerability, CVE-2024-30088.(Citation: Trend Micro Earth Simnavaz October 2024)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1069.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used <code>net localgroup administrators</code> to find local administrators on compromised systems.(Citation: Palo Alto OilRig May 2016)(Citation: Symantec Crambus OCT 2023)\n",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1069.002",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used <code>net group /domain</code>, <code>net group \u201cdomain admins\u201d /domain</code>, and <code>net group \u201cExchange Trusted Subsystem\u201d /domain</code> to find domain group permission settings.(Citation: Palo Alto OilRig May 2016)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1070.004",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has deleted files associated with their payload after execution.(Citation: FireEye APT34 Dec 2017)(Citation: Unit 42 OopsIE! Feb 2018)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1071.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used HTTP for C2.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT34 July 2019)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1071.004",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used DNS for C2 including the publicly available <code>requestbin.net</code> tunneling service.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT34 July 2019)(Citation: Check Point APT34 April 2021)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1078",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used compromised credentials to access other systems on a victim network.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: Crowdstrike GTR2020 Mar 2020)(Citation: IBM ZeroCleare Wiper December 2019)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1078.002",
+      "comment": "\n[OilRig](https://attack.mitre.org/groups/G0049) has used an exfiltration tool named STEALHOOK to retreive valid domain credentials.(Citation: Trend Micro Earth Simnavaz October 2024)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1082",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has run <code>hostname</code> and <code>systeminfo</code> on a victim.(Citation: Palo Alto OilRig May 2016)(Citation: Palo Alto OilRig Oct 2016)(Citation: FireEye APT34 July 2019)(Citation: Check Point APT34 April 2021)(Citation: Symantec Crambus OCT 2023)\n\t",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1087.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has run <code>net user</code>, <code>net user /domain</code>, <code>net group \u201cdomain admins\u201d /domain</code>, and <code>net group \u201cExchange Trusted Subsystem\u201d /domain</code> to get account listings on a victim.(Citation: Palo Alto OilRig May 2016)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1087.002",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has run <code>net user</code>, <code>net user /domain</code>, <code>net group \u201cdomain admins\u201d /domain</code>, and <code>net group \u201cExchange Trusted Subsystem\u201d /domain</code> to get account listings on a victim.(Citation: Palo Alto OilRig May 2016)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1105",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) had downloaded remote files onto victim infrastructure.(Citation: FireEye APT34 Dec 2017)(Citation: Trend Micro Earth Simnavaz October 2024)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1110",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used brute force techniques to obtain credentials.(Citation: FireEye APT34 Webinar Dec 2017)(Citation: IBM ZeroCleare Wiper December 2019)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1112",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used reg.exe to modify system configuration.(Citation: Symantec Crambus OCT 2023)(Citation: Trend Micro Earth Simnavaz October 2024)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1113",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has a tool called CANDYKING to capture a screenshot of user's desktop.(Citation: FireEye APT34 Webinar Dec 2017)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1115",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used infostealer tools to copy clipboard data.(Citation: Symantec Crambus OCT 2023)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1119",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used automated collection.(Citation: Unit42 OilRig Playbook 2023)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1120",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used tools to identify if a mouse is connected to a targeted system.(Citation: Check Point APT34 April 2021)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1133",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) uses remote services such as VPN, Citrix, or OWA to persist in an environment.(Citation: FireEye APT34 Webinar Dec 2017)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1137.004",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has abused the Outlook Home Page feature for persistence. [OilRig](https://attack.mitre.org/groups/G0049) has also used CVE-2017-11774 to roll back the initial patch designed to protect against Home Page abuse.(Citation: FireEye Outlook Dec 2019)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1140",
+      "comment": "A [OilRig](https://attack.mitre.org/groups/G0049) macro has run a PowerShell command to decode file contents. [OilRig](https://attack.mitre.org/groups/G0049) has also used [certutil](https://attack.mitre.org/software/S0160) to decode base64-encoded files on victims.(Citation: FireEye APT34 Dec 2017)(Citation: OilRig New Delivery Oct 2017)(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Crowdstrike GTR2020 Mar 2020)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1195",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has leveraged compromised organizations to conduct supply chain attacks on government entities.(Citation: Trend Micro Earth Simnavaz October 2024)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1201",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used net.exe in a script with <code>net accounts /domain</code> to find the password policy of a domain.(Citation: FireEye Targeted Attacks Middle East Banks)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1203",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has exploited CVE-2024-30088 to run arbitrary code in the context of `SYSTEM`.(Citation: Trend Micro Earth Simnavaz October 2024)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1204.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has delivered malicious links to achieve execution on the target system.(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 QUADAGENT July 2018)(Citation: Crowdstrike Helix Kitten Nov 2018)(Citation: ClearSky OilRig Jan 2017)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1204.002",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has delivered macro-enabled documents that required targets to click the \"enable content\" button to execute the payload on the system.(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 QUADAGENT July 2018)(Citation: Crowdstrike Helix Kitten Nov 2018)(Citation: Check Point APT34 April 2021)(Citation: ClearSky OilRig Jan 2017)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1218.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used a CHM payload to load and execute another malicious file once delivered to a victim.(Citation: Palo Alto OilRig May 2016)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1219",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has incorporated remote monitoring and management (RMM) tools into their operations including [ngrok](https://attack.mitre.org/software/S0508).(Citation: Trend Micro Earth Simnavaz October 2024)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1497.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used macros to verify if a mouse is connected to a compromised machine.(Citation: Check Point APT34 April 2021)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1505.003",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used web shells, often to maintain access to a victim network.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: Crowdstrike GTR2020 Mar 2020)(Citation: Trend Micro Earth Simnavaz October 2024)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1543.003",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used a compromised Domain Controller to create a service on a remote host.(Citation: Symantec Crambus OCT 2023)\n",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1552.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used credential dumping tools such as [LaZagne](https://attack.mitre.org/software/S0349) to steal credentials to accounts logged into the compromised system and to Outlook Web Access.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT35 2018)(Citation: FireEye APT34 July 2019)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1553.002",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has signed its malware with stolen certificates.(Citation: ClearSky OilRig Jan 2017)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1555",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used credential dumping tools such as [LaZagne](https://attack.mitre.org/software/S0349) to steal credentials to accounts logged into the compromised system and to Outlook Web Access.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT35 2018)(Citation: FireEye APT34 July 2019)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1555.003",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used credential dumping tools such as [LaZagne](https://attack.mitre.org/software/S0349) to steal credentials to accounts logged into the compromised system and to Outlook Web Access.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT35 2018)(Citation: FireEye APT34 July 2019) [OilRig](https://attack.mitre.org/groups/G0049) has also used tool named PICKPOCKET to dump passwords from web browsers.(Citation: FireEye APT34 July 2019)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1555.004",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used credential dumping tool named VALUEVAULT to steal credentials from the Windows Credential Manager.(Citation: FireEye APT34 July 2019)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1556.002",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has registered a password filter DLL in order to drop malware.(Citation: Trend Micro Earth Simnavaz October 2024)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1562.004",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has modified Windows firewall rules to enable remote access.(Citation: Symantec Crambus OCT 2023)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1566.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has sent spearphising emails with malicious attachments to potential victims using compromised and/or spoofed email accounts.(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 QUADAGENT July 2018)(Citation: Crowdstrike Helix Kitten Nov 2018)(Citation: ClearSky OilRig Jan 2017)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1566.002",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has sent spearphising emails with malicious links to potential victims.(Citation: Unit 42 OopsIE! Feb 2018)(Citation: ClearSky OilRig Jan 2017)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1566.003",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used LinkedIn to send spearphishing links.(Citation: FireEye APT34 July 2019)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1572",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used the Plink utility and other tools to create tunnels to C2 servers.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT34 July 2019)(Citation: Symantec Crambus OCT 2023)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1573.002",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) used the [PowerExchange](https://attack.mitre.org/software/S1173) utility and other tools to create tunnels to C2 servers.(Citation: FireEye APT34 Webinar Dec 2017)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1583.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has set up fake VPN portals, conference sign ups, and job application websites to target victims.(Citation: ClearSky OilRig Jan 2017)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1586.002",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has compromised email accounts to send phishing emails.(Citation: ClearSky OilRig Jan 2017)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1587.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) actively developed and used a series of downloaders during 2022.(Citation: ESET OilRig Downloaders DEC 2023)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1588.002",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has made use of the publicly available tools including Plink and [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: Symantec Crambus OCT 2023)(Citation: Trend Micro Earth Simnavaz October 2024) ",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1588.003",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has obtained stolen code signing certificates to digitally sign malware.(Citation: ClearSky OilRig Jan 2017)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1608.001",
+      "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has hosted malware on fake websites designed to target specific audiences.(Citation: ClearSky OilRig Jan 2017)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    }
+  ],
+  "legendItems": [
+    {
+      "label": "used by OilRig",
+      "color": "#66b1ff"
+    }
+  ],
+  "metadata": [
+    {
+      "name": "source",
+      "value": "MITRE ATT&CK Excel v18.1 groups.xlsx / techniques used"
+    },
+    {
+      "name": "groupPage",
+      "value": "https://attack.mitre.org/groups/G0049"
+    }
+  ]
+}

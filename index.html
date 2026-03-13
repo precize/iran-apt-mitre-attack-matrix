@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Precize | Iran-Linked MITRE ATT&CK Matrix</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Precize External Research</div>
+      <h1>Iran-Linked MITRE ATT&amp;CK Enterprise Matrix</h1>
+      <p class="lede">A complete GitHub Pages repository for sharing selected Iran-linked ATT&amp;CK groups, their mapped techniques, and an aggregated Enterprise Navigator layer. The site uses MITRE ATT&amp;CK Excel v18.1 as the reproducible source dataset and keeps per-group generated layer files in the repository.</p>
+      <div class="actions">
+        <a class="button primary" href="data/iran_attack_aggregated_layer.json">Download combined Navigator layer</a>
+        <a class="button" target="_blank" rel="noreferrer" href="https://mitre-attack.github.io/attack-navigator/">Open ATT&amp;CK Navigator</a>
+        <a class="button" href="matrix.html">Open matrix view</a>
+        <a class="button" href="README.md">Deployment guide</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="grid stats" id="stats"></section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Validation</h2>
+        <p>Each selected group has a generated local Navigator layer and a linked official MITRE group page. Technique counts come from MITRE ATT&amp;CK Excel v18.1 <code>groups.xlsx</code> → <code>techniques used</code>.</p>
+      </div>
+      <div id="validationTable"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Enterprise tactic view</h2>
+        <p><a class="button" href="matrix.html">Launch MITRE-style matrix page</a></p>
+        <p>This matrix-style rendering shows the top observed techniques under each Enterprise tactic. The number shown is the count of selected groups mapped to that technique.</p>
+      </div>
+      <div id="matrix"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Technique catalog</h2>
+        <p>Search across technique ID, technique name, tactic, or group name.</p>
+      </div>
+      <div class="filters">
+        <input id="techSearch" type="search" placeholder="Search technique, tactic, or group" />
+        <select id="tacticFilter"><option value="">All tactics</option></select>
+      </div>
+      <div id="techniquesTable"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Selected groups</h2>
+        <p>Each card links to the MITRE group page, the generated local layer file, and the official MITRE layer URL pattern.</p>
+      </div>
+      <div id="groupCards" class="card-grid"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Repository contents</h2>
+      </div>
+      <ul class="repo-list">
+        <li><code>data/generated_layers/*.json</code> - one generated layer per included group</li>
+        <li><code>data/iran_attack_aggregated_layer.json</code> - combined ATT&amp;CK Navigator layer</li>
+        <li><code>data/manifest.json</code> - complete machine-readable dataset for the site</li>
+        <li><code>data/enterprise-attack-v18.1-*.xlsx</code> - MITRE ATT&amp;CK source files used to build the repo</li>
+        <li><code>scripts/build_repo.py</code> - reproducible regeneration script</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <p>Built for Precize using official MITRE ATT&amp;CK source files and group pages.</p>
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

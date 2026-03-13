@@ -1,0 +1,27 @@
+{
+  "name": "CyberAv3ngers (G1027)",
+  "description": "Enterprise techniques used by CyberAv3ngers derived from MITRE ATT&CK Excel v18.1 'techniques used' mappings.",
+  "domain": "enterprise-attack",
+  "versions": {
+    "layer": "4.5",
+    "attack": "18.1",
+    "navigator": "5.2.0"
+  },
+  "techniques": [],
+  "legendItems": [
+    {
+      "label": "used by CyberAv3ngers",
+      "color": "#66b1ff"
+    }
+  ],
+  "metadata": [
+    {
+      "name": "source",
+      "value": "MITRE ATT&CK Excel v18.1 groups.xlsx / techniques used"
+    },
+    {
+      "name": "groupPage",
+      "value": "https://attack.mitre.org/groups/G1027/"
+    }
+  ]
+}

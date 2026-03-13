@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Precize | Iran-Linked ATT&CK Enterprise Matrix</title>
+  <link rel="stylesheet" href="assets/matrix-page.css" />
+</head>
+<body>
+  <header class="matrix-header">
+    <div class="brand-row">
+      <div>
+        <div class="eyebrow">Precize External Research</div>
+        <h1>Iran-Linked ATT&amp;CK Enterprise Matrix</h1>
+        <p class="subtitle">A MITRE-style enterprise matrix generated from the selected Iran-linked ATT&amp;CK groups in this repository.</p>
+      </div>
+      <div class="header-actions">
+        <a class="top-link" href="index.html">Back to overview</a>
+        <a class="top-link" href="data/iran_attack_aggregated_layer.json">Download Navigator layer</a>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <label>
+        <span>layout:</span>
+        <select id="layoutSelect">
+          <option value="side">side</option>
+          <option value="compact">compact</option>
+        </select>
+      </label>
+      <button id="showSubs">show sub-techniques</button>
+      <button id="hideSubs" class="active">hide sub-techniques</button>
+      <input id="matrixSearch" type="search" placeholder="search technique or ID" />
+      <a class="help-link" href="#matrixHelp">help</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="matrixStats" class="matrix-stats"></section>
+    <section id="matrixContainer" class="matrix-container"></section>
+
+    <section id="matrixHelp" class="help-panel">
+      <h2>How this page works</h2>
+      <p>Each column is an Enterprise ATT&amp;CK tactic. Each tile is a technique observed across the selected Iran-linked groups. The number in parentheses shows how many groups in this repository use that technique. Clicking a tile opens the official ATT&amp;CK technique page.</p>
+      <p>Sub-techniques can be hidden to keep the matrix readable or shown to expand the full mapped set. The compact layout reduces tile height for denser browsing.</p>
+    </section>
+  </main>
+
+  <script src="assets/matrix.js"></script>
+</body>
+</html>
