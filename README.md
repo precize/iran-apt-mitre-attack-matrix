@@ -1,7 +1,5 @@
 # Precize - Iran-Linked MITRE ATT&CK Enterprise Matrix
 
-This repository is ready to upload to GitHub and publish through GitHub Pages.
-
 ## What it contains
 
 - `index.html` - external-facing static site
