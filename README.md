@@ -27,24 +27,24 @@ This repository uses MITRE ATT&CK Excel v18.1 files from the official ATT&CK Dat
 
 ### Group IDs and names
 
-G1030	**Agrius**
-G0130	**Ajax Security Team**
-G0064	**APT33**
-G0087	**APT39** 
-G1044	**APT42** 
-G0003	**Cleaver** 
-G0052	**CopyKittens** 
-G1012	**CURIUM**
-G1027	**CyberAv3ngers** 
-G0137	**Ferocious Kitten** 
-G0117	**Fox Kitten** 
-G0043	**Group5** 
-G0077	**Leafminer** 
-G0059	**Magic Hound**
-G1009	**Moses Staff**
-G0069	**MuddyWater** 
-G0049	**OilRig**
-G0122	**Silent Librarian**
+- G1030	**Agrius**
+- G0130	**Ajax Security Team**
+- G0064	**APT33**
+- G0087	**APT39** 
+- G1044	**APT42** 
+- G0003	**Cleaver** 
+- G0052	**CopyKittens** 
+- G1012	**CURIUM**
+- G1027	**CyberAv3ngers** 
+- G0137	**Ferocious Kitten** 
+- G0117	**Fox Kitten** 
+- G0043	**Group5** 
+- G0077	**Leafminer** 
+- G0059	**Magic Hound**
+- G1009	**Moses Staff**
+- G0069	**MuddyWater** 
+- G0049	**OilRig**
+- G0122	**Silent Librarian**
 
 ## Open the combined matrix in ATT&CK Navigator
 
