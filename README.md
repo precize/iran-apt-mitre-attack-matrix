@@ -50,7 +50,7 @@ This repository uses MITRE ATT&CK Excel v18.1 files from the official ATT&CK Dat
 
 1. Go to the MITRE ATT&CK Navigator https://mitre-attack.github.io/attack-navigator/
 2. Choose **Open Existing Layer**.
-3. Upload `data/iran_attack_aggregated_layer.json`.
+3. Upload `data/iran_attack_aggregated_layer.json` or point to https://github.com/precize/precize-iran-mitre-matrix/blob/main/data/iran_attack_aggregated_layer.json
 
 ## Notes
 
